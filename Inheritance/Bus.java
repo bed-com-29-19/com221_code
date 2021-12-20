@@ -42,8 +42,8 @@ class Bus extends Vehicle{
      * method for setting length of the bus
      */
 
-    public void setMinimumCarryingCapacityPerSeat(double minimumCarryingCapacityPerSeat){
-        this.minimumCarryingCapacityPerSeat=(int) minimumCarryingCapacityPerSeat;
+    public void setMinimumCarryingCapacityPerSeat(int minimumCarryingCapacityPerSeat){
+        this.minimumCarryingCapacityPerSeat=minimumCarryingCapacityPerSeat;
     }
 /**
  * method for getting height of the bus
