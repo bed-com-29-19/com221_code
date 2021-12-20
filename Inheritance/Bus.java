@@ -15,7 +15,7 @@ class Bus extends Vehicle{
     }
     
     /**
-     * method for setting length of the bus
+     * method for setting height of the bus
      */
 
      public void setHeight(double height){
@@ -31,7 +31,7 @@ class Bus extends Vehicle{
     }
 
      /**
-     * method for setting length of the bus
+     * method for setting width of the bus
      */
 
     public void setWidth (double width){
@@ -39,7 +39,7 @@ class Bus extends Vehicle{
     }
 
      /**
-     * method for setting length of the bus
+     * method for setting minimumCarryingCapacity of the bus
      */
 
     public void setMinimumCarryingCapacityPerSeat(int minimumCarryingCapacityPerSeat){
