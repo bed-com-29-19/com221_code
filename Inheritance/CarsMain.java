@@ -7,13 +7,20 @@ public class CarsMain{
 
         //creating a bus object
         Bus schoolBus = new Bus();
-        System.out.println("This is a School Bus and has "+schoolBus.getNumberOfTryes()" tyers");
+
+        //assigning values to attributes of schoolBus object
         schoolBus.setColor("silver");
         schoolBus.setHeight(3.81);
         schoolBus.setLength(12);
         schoolBus.setWidth(2.55);
         schoolBus.setMinimumCarryingCapacityPerSeat(49);
-        System.out.println(schoolBus.getColor());
+        /**
+         * print out statements
+         */
+        System.out.println();
+        System.out.println("This is a School Bus \nThis Bus has "+schoolBus.getNumberOfTryes()+" tyers and is  "+schoolBus.getColor()+ " in colour\nIt carries "+schoolBus.getMinimumCarryingCapacityPerSeat()+" students");
+        System.out.println("These are its dimensions in meters\nHeight is "+schoolBus.getHeight()+"\nWidth is  "+schoolBus.getWidth()+" \nlength is "+schoolBus .getLength());
+       
 
     }
 }
